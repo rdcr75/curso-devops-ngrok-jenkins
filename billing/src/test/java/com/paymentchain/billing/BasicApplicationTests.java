@@ -91,7 +91,7 @@ public class BasicApplicationTests {
     }
 
     /**
-     * Test call of create method, on weblayer.1
+     * Test call of create method, on weblayer.
      */
     @Test
     public void testFindById() throws Exception {
