@@ -38,7 +38,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * Mockito is a mocking framework, JAVA-based library that is used for effective unit testing of JAVA applications. Mockito is used to mock interfaces so that a dummy functionality can be added to a mock interface that can be used in unit testing. 
  **/
 
- @WebMvcTest(InvoiceRestController.class)
+@WebMvcTest(InvoiceRestController.class)
 
 /* 
     allow test only http incoming request layer without start the server, 
@@ -51,7 +51,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
     but starting the full spring application context 
 */
 public class BasicApplicationTests {
-  
     @Autowired
     private MockMvc mockMvc;
     @MockBean //mock the repository layer in order to have a unit test for weblayer 
