@@ -1,5 +1,6 @@
 package com.paymentchain.billing;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.paymentchain.billing.common.InvoiceRequestMapper;
 import com.paymentchain.billing.common.InvoiceResposeMapper;
